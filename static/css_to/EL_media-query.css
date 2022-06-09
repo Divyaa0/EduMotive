@@ -1,0 +1,136 @@
+                                                          /* Media Queries */
+                                                          /* Always go in descending order of screen widths */
+
+/* Big tablets to smaller laptops */
+@media only screen and (max-width:1200px){
+    html,
+    body{
+        font-size: 14px;
+    }
+
+    .about-para{
+        margin-bottom: 20px;
+    }
+
+    .section-heading,
+    .testimonial-heading,
+    .contact-heading{
+        margin-top: 90px;
+    }
+}
+
+/* Smaller tablets to larger tablets */
+@media only screen and (max-width:1023px){
+    html,
+    body{
+        font-size: 12px;
+    }
+
+    .row{
+        padding:0 2%;
+    }
+
+    .about-box{
+        margin-top: 60px;
+    }
+
+    .about-box:first-child{
+        padding: 0;
+        padding-left: 5%;
+    }
+
+    .laptop-img{
+        padding-right: 5%;
+    }
+
+    footer{
+        padding: 30px;
+    }
+
+    footer p{
+        line-height:1.3 ;
+        margin-top: 20px;
+    }
+    
+}
+
+/* Larger phones or smaller tablets */
+@media only screen and (max-width:767px){
+    html,
+    body{
+        font-size: 10px;
+    }
+
+    .header-box-text{
+        margin-bottom: 50px;
+    }
+
+    .about-heading{
+        margin-bottom: 20px;
+    }
+
+    .section-heading,
+    .testimonial-heading,
+    .contact-heading{
+        margin-top: 60px;
+    }
+
+    .section-heading{
+        margin-bottom: 10px;
+    }
+
+    .section-sub-heading{
+        margin: 15px auto 0 auto;
+    }
+    
+    .testimonial-heading{
+        margin-bottom: 10px;
+    }
+
+}
+
+/* All phone sizes small to large */
+@media only screen and (max-width:480px){
+    .laptop-img{
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    .about-box:last-child{
+        text-align: center;
+    }
+
+    .about-box:first-child{
+        text-align: center;
+        padding: 0 5%;
+    }
+
+    .span_1_of_4{
+        width: 45%;
+        margin-bottom: 20px;
+    }
+
+    .span_1_of_3{
+        padding: 0 10%;
+        margin-bottom: 5px;
+    }
+
+    .contact-form{
+        width: 100%;
+    }
+
+    .contact-label{
+        padding-left: 0;
+    }
+
+    .footer-nav,
+    .footer-links{
+        float:none;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .work-portfolio li{
+        width: 50%;
+    }
+}
